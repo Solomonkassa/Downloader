@@ -1,28 +1,22 @@
-# Media Downloader
+# Media Downloader Web Application
 
-Media Downloader is a web application that allows users to download and encrypt media files (e.g., images) from a given URL. It uses Flask as the web framework for the backend, and JavaScript with jQuery and Bootstrap for the frontend.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Features
-
-- Download and encrypt media files from a provided URL.
-- Real-time progress updates for media download and encryption.
-- Display media download status and progress.
+## Overview
+The Media Downloader is a web application that allows users to scrape media URLs from a given website and download them. The application is built using Python and Flask framework on the backend, and jQuery and Bootstrap on the frontend. It supports downloading images, videos, and audio files.
 
 ## Prerequisites
+Before running the application, ensure you have the following installed:
 
-Before running the application, make sure you have the following installed:
-
-- Python 3
-- pip (Python package manager)
+- Python 3.x
+- pip
 
 ## Installation
-
 1. Clone the repository:
-
-```
-git clone <repository_url>
-cd downloader
-```
+   ```
+   git clone https://github.com/<solomonkassa>/media-downloader.git
+   cd media-downloader
+   ```
 2. Create a virtual environment (optional but recommended):
 ```
 python3 -m venv venv
